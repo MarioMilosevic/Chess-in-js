@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wrapp">
+      <div class="container">
+        <div class="chess_board">
+          <!-- UPPER LETTER ROW -->
+          <div class="upper_letter_row">
+            <div class="empty_upper_left"></div>
+            <div class="letter_A_top border-top">A</div>
+            <div class="letter_B_top border-top">B</div>
+            <div class="letter_C_top border-top">C</div>
+            <div class="letter_D_top border-top">D</div>
+            <div class="letter_E_top border-top">E</div>
+            <div class="letter_F_top border-top">F</div>
+            <div class="letter_G_top border-top">G</div>
+            <div class="letter_H_top border-top">H</div>
+            <div class="empty_upper_right"></div>
+          </div>
+          <!-- ROW 8 -->
+          <div class="row-8">
+            <div class="number_8_left">8</div>
+            <div>
+              <img
+                class="black-rook"
+                src="img/black-rook.png"
+                alt="black-rook"
+              />
+            </div>
+            <div>
+              <img
+                class="black-knight black_field"
+                src="img/black-knight.png"
+                alt="black-knight"
+              />
+            </div>
+            <div>
+              <img
+                class="black-bishop"
+                src="img/black-bishop.png"
+                alt="black-bishop"
+              />
+            </div>
+            <div>
+              <img
+                id="black-queen"
+                class="black_field"
+                src="img/black-queen.png"
+                alt="black-queen"
+              />
+            </div>
+            <div>
+              <img id="black-king" src="img/black-king.png" alt="black-king" />
+            </div>
+            <div>
+              <img
+                class="black-bishop black_field"
+                src="img/black-bishop.png"
+                alt="black-bishop"
+              />
+            </div>
+            <div>
+              <img
+                class="black-knight"
+                src="img/black-knight.png"
+                alt="black-knight"
+              />
+            </div>
+            <div>
+              <img
+                class="black-rook black_field"
+                src="img/black-rook.png"
+                alt="black-rook"
+              />
+            </div>
+            <div class="number_8_right">8</div>
+          </div>
+          <!-- ROW 7 -->
+          <div class="row-7">
+            <div class="number_7_left">7</div>
+            <div>
+              <img
+                class="black-pawn black_field"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn black_field"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn black_field"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn black_field"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div>
+              <img
+                class="black-pawn"
+                src="img/black-pawn.png"
+                alt="black-pawn"
+              />
+            </div>
+            <div class="number_7_right">7</div>
+          </div>
+          <!-- ROW 6 -->
+          <div class="row-6">
+            <div class="number_6_left">6</div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="number_6_right">6</div>
+          </div>
+          <!-- ROW 5 -->
+          <div class="row-5">
+            <div class="number_5_left">5</div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="number_5_right">5</div>
+          </div>
+          <!-- ROW 4 -->
+          <div class="row-4">
+            <div class="number_4_left">4</div>
+            <div id="a_4" class="empty_div"></div>
+            <div id="b_4" class="empty_div black_field"></div>
+            <div id="c_4" class="empty_div"></div>
+            <div id="d_4" class="empty_div black_field"></div>
+            <div id="e_4" class="empty_div"></div>
+            <div id="f_4" class="empty_div black_field"></div>
+            <div id="g_4" class="empty_div"></div>
+            <div id="h_4" class="empty_div black_field"></div>
+            <div class="number_4_right">4</div>
+          </div>
+          <!-- ROW 3 -->
+          <div class="row-3">
+            <div class="number_3_left">3</div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div id="e_3" class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="empty_div black_field"></div>
+            <div class="empty_div"></div>
+            <div class="number_3_right">3</div>
+          </div>
+          <!-- ROW 2 -->
+          <div class="row-2">
+            <div class="number_2_left">2</div>
+            <div>
+              <img
+                id="a_2_pawn"
+                class="white-pawn"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="b_2_pawn"
+                class="white-pawn black_field"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="c_2_pawn"
+                class="white-pawn"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="d_2_pawn"
+                class="white-pawn black_field"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="e_2_pawn"
+                class="white-pawn"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="f_2_pawn"
+                class="white-pawn black_field"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="g_2_pawn"
+                class="white-pawn"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div>
+              <img
+                id="h_2_pawn"
+                class="white-pawn black_field"
+                src="img/white-pawn.png"
+                alt="white-pawn"
+              />
+            </div>
+            <div class="number_2_right">2</div>
+            <!-- ROW 1 -->
+            <div class="row-1">
+              <div class="number_1_left">1</div>
+              <div>
+                <img
+                  class="white-rook black_field"
+                  src="img/white-rook.png"
+                  alt="white-rook"
+                />
+              </div>
+              <div>
+                <img
+                  class="white-knight"
+                  src="img/white-knight.png"
+                  alt="white-knight"
+                />
+              </div>
+              <div>
+                <img
+                  class="white-bishop black_field"
+                  src="img/white-bishop.png"
+                  alt="white-bishop"
+                />
+              </div>
+              <div>
+                <img
+                  id="white-queen"
+                  src="img/white-queen.png"
+                  alt="white-queen"
+                />
+              </div>
+              <div>
+                <img
+                  id="white-king"
+                  class="black_field"
+                  src="img/white-king.png"
+                  alt="white-king"
+                />
+              </div>
+              <div>
+                <img
+                  class="white-bishop"
+                  src="img/white-bishop.png"
+                  alt="white-bishop"
+                />
+              </div>
+              <div>
+                <img
+                  class="white-knight black_field"
+                  src="img/white-knight.png"
+                  alt="white-knight"
+                />
+              </div>
+              <div>
+                <img
+                  class="white-rook"
+                  src="img/white-rook.png"
+                  alt="white-rook"
+                />
+              </div>
+              <div class="number_1_right">1</div>
+            </div>
+            <!-- LOWER LETTER ROW -->
+            <div class="lower_letter_row">
+              <div class="empty_lower_left"></div>
+              <div class="letter_A_bottom border-top">A</div>
+              <div class="letter_B_bottom border-top">B</div>
+              <div class="letter_C_bottom border-top">C</div>
+              <div class="letter_D_bottom border-top">D</div>
+              <div class="letter_E_bottom border-top">E</div>
+              <div class="letter_F_bottom border-top">F</div>
+              <div class="letter_G_bottom border-top">G</div>
+              <div class="letter_H_bottom border-top">H</div>
+              <div class="empty_lower_right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
